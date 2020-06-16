@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:com.example.myapplication="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_home"
+            android:title="Carne"
+            com.example.myapplication:actionLayout="@layout/item"/>
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_gallery"
+            android:title="Lácteos"
+            com.example.myapplication:actionLayout="@layout/item"/>
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_industrializados"
+            android:title= "Industrializados"
+            com.example.myapplication:actionLayout="@layout/item"/>
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_mercearia"
+            android:title= "Frutas e Vegetais"
+            com.example.myapplication:actionLayout="@layout/item"/>
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_panificacao"
+            android:title= "Panificação e Confeitaria"
+            com.example.myapplication:actionLayout="@layout/item"/>
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_bebidas"
+            android:title= "Bebidas"
+            com.example.myapplication:actionLayout="@layout/item"/>
+        <item
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:id="@+id/nav_utensilios"
+            android:title= "Utensílios, Descartáveis\n e Produtos de Limpeza"
+            com.example.myapplication:actionLayout="@layout/item"/>
+
+
+    </group>
+</menu>
